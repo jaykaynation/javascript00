@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JS.TestPage
+        </title>
+    </head>
+    <body>
+        <div class="button.div">
+            <input id="blackButton" type="button" value="Black button" onclick="blackColor()"> 
+        </div>
+        <br/>
+        <div class="button.div">
+            <input id="blueButton" type="button" value="Blue button" onclick="blueColor()"> 
+        </div>
+        <br/>
+        <div class="button.div">
+            <input id="redButton" type="button" value="Red button" onclick="redColor()"> 
+        </div>
+
+        <!--js below here-->
+        <script>
+            function blackColor(){
+                document.getElementById("blackButton").style.color = "black";
+                document.getElementById("blueButton").style.color = "black";
+                document.getElementById("redButton").style.color = "black";
+            }
+            function blueColor(){
+                document.getElementById("blackButton").style.color = "blue";
+                document.getElementById("blueButton").style.color = "blue";
+                document.getElementById("redButton").style.color = "blue";
+            }
+            function redColor(){
+                document.getElementById("blackButton").style.color = "red";
+                document.getElementById("blueButton").style.color = "red";
+                document.getElementById("redButton").style.color = "red";
+            }
+
+        </script>
+    </body>
+</html>
